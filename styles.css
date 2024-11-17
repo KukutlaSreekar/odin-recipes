@@ -16,7 +16,7 @@ h2 {
 }
 
 ol {
-    background-color: lightgrey;
+    background-color: rgb(223, 213, 195);
 }
 
 img {
@@ -25,4 +25,12 @@ img {
     display: block; 
     margin-left: auto; 
     margin-right: auto;
+}
+
+ul {
+    font-weight: 600;
+}
+
+.typ_recipes {
+    background-color: lightpink;
 }
