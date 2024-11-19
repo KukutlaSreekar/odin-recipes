@@ -1,9 +1,10 @@
 body {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .home_heading {
     background-color: red;
+    border: 3px solid black;
 }
 
 h1 {
@@ -29,8 +30,24 @@ img {
 
 ul {
     font-weight: 600;
+   
 }
 
-.typ_recipes {
-    background-color: lightpink;
+
+ul.typ_recipes {
+    list-style-type: none;
+    padding-inline-start: 0;
+    
+}
+
+.typ_recipes li {
+    margin-bottom: 8px;
+    list-style-type: none;
+    border: 3px solid rgb(78, 54, 27);
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(36, 221, 221);
+}
+li a {
+    color: black;
 }
